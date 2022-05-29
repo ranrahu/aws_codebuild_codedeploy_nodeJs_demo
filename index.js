@@ -5,7 +5,7 @@ const config = require('config')
 console.log(config);
 
 app.get('/', (req, res) => {
-  res.send('<h1 style="color:green;">Welcome to Rahul Ranjan!!</h1> \n')
+  res.send('<h1 style="color:orange;">Welcome to HCL TECH!!</h1> \n')
 })
 
 app.get('/status', (req, res) => {
